@@ -1,12 +1,14 @@
+import MarkdownPreviewr from './components/MarkdownPreviewr'
 import Menu from './components/Menu'
+import MonacoEditor from './components/MonacoEditor'
 
 const App: React.FC = (): JSX.Element => {
   return (
     <>
       <Menu />
       <main>
-        <section></section>
-        <section></section>
+        <MonacoEditor />
+        <MarkdownPreviewr />
       </main>
     </>
   )

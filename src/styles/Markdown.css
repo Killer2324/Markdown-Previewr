@@ -1,0 +1,5 @@
+.markdown--container {
+  width: 50%;
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+}
