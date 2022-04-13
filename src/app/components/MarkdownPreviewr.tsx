@@ -1,5 +1,5 @@
 import MarkdownPreview from '@uiw/react-markdown-preview'
-
+import '../../styles/Markdown.css'
 interface Props {
   text: string
 }
@@ -7,7 +7,7 @@ interface Props {
 const MarkdownPreviewr: React.FC<Props> = ({ text }): JSX.Element => {
   return (
     <section className="markdown--container">
-      <MarkdownPreview source={text} />
+      <MarkdownPreview className="markdown--preview" source={text} />
     </section>
   )
 }
