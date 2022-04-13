@@ -1,5 +1,15 @@
+import Menu from './components/Menu'
+
 const App: React.FC = (): JSX.Element => {
-  return <div>hola mundo</div>
+  return (
+    <>
+      <Menu />
+      <main>
+        <section></section>
+        <section></section>
+      </main>
+    </>
+  )
 }
 
 export default App
