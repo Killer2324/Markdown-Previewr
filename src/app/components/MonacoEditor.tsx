@@ -9,7 +9,7 @@ interface Props {
 }
 
 const MonacoEditor: React.FC<Props> = ({ text, setText }): JSX.Element => {
-  const { setOptions, options } = useEditorContext()
+  const { options } = useEditorContext()
   const handleChangeText = (e: any): void => {
     setText(e)
   }
