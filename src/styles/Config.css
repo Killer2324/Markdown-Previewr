@@ -55,7 +55,7 @@
   font-weight: 700;
 }
 
-#options {
+.options {
   appearance: none;
   background-color: #fff;
   border: 1px solid #fff;
