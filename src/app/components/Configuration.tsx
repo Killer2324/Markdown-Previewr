@@ -1,4 +1,3 @@
-import { useEditorContext } from '../context/EditorContext'
 import Fontsize from './ConfigComponents/Fontsize'
 import Minimap from './ConfigComponents/Minimap'
 import Theme from './ConfigComponents/Theme'

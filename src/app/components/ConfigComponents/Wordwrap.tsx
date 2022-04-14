@@ -1,9 +1,20 @@
+import { useEditorContext } from '../../context/EditorContext'
+
 const Wordwrap: React.FC = (): JSX.Element => {
+  const { options, setOptions } = useEditorContext()
+
+  const handleChooseWordwrap = (e: any): void => {
+    setOptions({
+      ...options,
+      optionsConfig: { ...options.optionsConfig, wordWrap: e.target.value },
+    })
+  }
+
   return (
     <div className="config--option-container">
       <div className="option--title">Wordwrap</div>
       <div className="config--option-item">
-        <select className="options">
+        <select className="options" onChange={handleChooseWordwrap}>
           <option selected>Choose Wordwrap Type</option>
           <option value="on">on</option>
           <option value="off">off</option>
