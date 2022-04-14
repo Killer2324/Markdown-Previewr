@@ -1,6 +1,7 @@
 import Editor from '@monaco-editor/react'
 import '../../styles/Editor.css'
 import Spinner from '../common/Spinner'
+import { useEditorContext } from '../context/EditorContext'
 
 interface Props {
   text: string
@@ -8,6 +9,7 @@ interface Props {
 }
 
 const MonacoEditor: React.FC<Props> = ({ text, setText }): JSX.Element => {
+  const { setOptions, options } = useEditorContext()
   const handleChangeText = (e: any): void => {
     setText(e)
   }
@@ -17,15 +19,9 @@ const MonacoEditor: React.FC<Props> = ({ text, setText }): JSX.Element => {
       <Editor
         language="markdown"
         loading={<Spinner />}
-        theme="vs-dark"
+        theme={options.theme}
         value={text}
-        options={{
-          selectOnLineNumbers: true,
-          fontSize: 20,
-          minimap: {
-            enabled: false,
-          },
-        }}
+        options={options.optionsConfig}
         onChange={handleChangeText}
       />
     </section>
