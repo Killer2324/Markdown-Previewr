@@ -12,7 +12,12 @@
     "@monaco-editor/react": "^4.4.2",
     "@uiw/react-markdown-preview": "^4.0.5",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "workbox-core": "^6.5.3",
+    "workbox-expiration": "^6.5.3",
+    "workbox-precaching": "^6.5.3",
+    "workbox-routing": "^6.5.3",
+    "workbox-strategies": "^6.5.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
