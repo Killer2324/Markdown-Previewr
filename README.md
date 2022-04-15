@@ -1,5 +1,17 @@
 # Markdown Previewr 📖
 
+## Index
+
+1. [Preview](##Preview)
+2. [Contributions](##Contributions)
+3. [Licence](##Licence)
+4. [Dependencies](##Dependencies)
+
+## Preview
+
+![preview_markdown_previewr](./src/assets/img/preview%20markdown%20editor.png)
+![popup_config](./src/assets/img/popup.png)
+
 ## Contributions
 
 1. Fork this repository
