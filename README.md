@@ -1,4 +1,4 @@
-# Markdown Previewr
+# Markdown Previewr 📖
 
 ## Contributions
 
