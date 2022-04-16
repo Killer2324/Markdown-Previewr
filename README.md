@@ -2,10 +2,10 @@
 
 ## Index
 
-1. [Preview](##Preview)
-2. [Contributions](##Contributions)
-3. [Licence](##Licence)
-4. [Dependencies](##Dependencies)
+* [Preview](#preview)
+* [Contributions](#contributions)
+* [Licence](#licence)
+* [Dependencies](#dependencies)
 
 ## Preview
 
