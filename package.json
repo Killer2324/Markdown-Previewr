@@ -2,7 +2,7 @@
   "name": "markdown-previewr-ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://Killer2324.github.io/Markdown-Previewr",
+  "homepage": "https://Killer2324.github.io/Markdown-Previewr",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
